@@ -4,16 +4,37 @@ html
     include _shared/_head
   body
     .main
-      include _shared/_header
-      .content
-        h1 Index page
 
-        .icon-geo
+      .motto: span Ищу работу
+      .vacancy Front-End developer
 
-        h2 Ruble sign
-        .ruble 99 Р
-        .ruble: b 99 Р
-        .ruble: i 99 Р
-        .ruble: b: i 99 Р
+      .columns
+        div.left_column
+          img.avatar(src="img/new_avatar.jpg", width="100%")
+          h2.name Дмитрий Вислов
+          p Я прилетел с добропланеты Зион чтобы дать людям качественную вёрстку. Человечество отнеслось с пониманием и позволило верстать им сайты. А вы?
+        div
+          h2.know Я знаю и умею
+          h2.work Я работал
+          h2.future Я хотел бы прокачать
+          ul
+            li b_ framework (БЭМ)
+            li native JavaScript (+ООП)
+            li тестирование JavaScript
+            li browserify / webpack
+
+        div.right-column
+          h2.want Я хочу
+          p Гибкий график и возможность периодически работать из любой точки вселенной
+
+          h2.no-want Я не хочу
+          p Верстать под Битрикс
+
+          h2.geo География
+          p Предпочтителен офис в г.Ульяновск. Переезд в г.Чебоксары возможен сразу. Москва не ранее лета 2015г. Ну или удалённая работа.
+
+      .reward
+        | 60 000
+        span.ruble Р
 
     include _shared/_footer
