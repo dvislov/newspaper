@@ -37,6 +37,10 @@
   line-height: 1;
 }
 
+a {
+  color: #333;
+}
+
 body {
   background: url(../img/paper.png) center top #ccc;
   color: #000;
@@ -88,7 +92,7 @@ body {
 
 .columns div:first-child,
 .columns div:last-child {
-  width: 23%;
+  width: 22%;
 }
 
 .avatar {
@@ -100,7 +104,7 @@ h2 {
   font-size: 1.2rem;
 }
 
-.left_column p {
+.left-column p {
   text-align: justify;
 }
 
@@ -118,6 +122,20 @@ h2 {
   text-align: justify;
 }
 
+.center-column {
+  border: 1px solid #000;
+  border-width: 0 1px;
+  padding: 0 2%;
+}
+
+.center-column p {
+  text-align: justify;
+}
+
+.center-column ul {
+  margin-bottom: 1.5rem;
+}
+
 .reward {
   border-top: 4px solid #000;
   border-bottom: 4px solid #000;
@@ -128,6 +146,34 @@ h2 {
   padding: 0.5rem 0;
   white-space: nowrap;
   font-family: "Arial";
+  position: relative;
+}
+
+.reward .month,
+.reward .want {
+  font-family: "Courier New", serif;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 0.1rem;
+  opacity: 0.2;
+}
+
+.reward .month {
+  right: 0;
+}
+
+.reward .want {
+  left: 0;
+}
+
+.contacts {
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.works {
+  line-height: 1.3rem;
 }
 
 /*# sourceMappingURL=application.css.map */

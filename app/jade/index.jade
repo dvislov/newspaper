@@ -9,32 +9,99 @@ html
       .vacancy Front-End developer
 
       .columns
-        div.left_column
+        div.left-column
           img.avatar(src="img/new_avatar.jpg", width="100%")
-          h2.name Дмитрий Вислов
+          h2.name
+            | Дмитрий Вислов
+            br
+            | 27 лет
           p Я прилетел с добропланеты Зион чтобы дать людям качественную вёрстку. Человечество отнеслось с пониманием и позволило верстать им сайты. А вы?
-        div
+        div.center-column
           h2.know Я знаю и умею
-          h2.work Я работал
-          h2.future Я хотел бы прокачать
+          p Много разных штук и вещей, со многим доводилось поработать. На самом деле это текст ради текста, просто он в этой колонке красиво по ширине смотрится. Вообще весь сайт как бы должен быть похож на газету, но с дизайном и вкусом у меня всегда небольшие проблемы, поэтому смотрите на то, что есть.
+          ul
+            li Progressive enhancement / Graceful degradation / Mobile First
+            li Adaptive / Responsive design, media queries
+            li HTML 5 / CSS 3
+            li Smarty, HAML/Slim, Twig, Jade
+            li LESS, SASS/SCSS, COMPASS, Stylus, Bourbon
+            li CSS Frameworks (960gs, Twitter Bootstrap, Foundation etc.)
+            li Версии печати / почтовые шаблоны
+            li JavaScript (jQuery), CoffeScript
+            li AngularJS, react.js (with FLUX)
+            li Grunt, Gulp
+            li SVG, Retina
+            li WebFonts, SVG-Fonts
+            li git, git-flow
+
+        div.right-column
+          h2 Я хочу
+          p Гибкий график и возможность периодически работать из любой точки вселенной. И, безусловно, интереснейшие задачи с применением новых технологий, хороший коллектив и печеньки.
+
+          h2 Я не хочу
+          p Верстать под Битрикс и работать под Windows
+
+          h2 География
+          p Предпочтителен офис в г.Ульяновск. Переезд в г.Чебоксары возможен сразу. Москва не ранее лета 2015г. Ну или удалённая работа с посещением офиса 1-2 раза в месяц.
+
+      .reward
+        | 60 000
+        span.ruble Р
+        .month в месяц
+        .want Я хочу
+
+      .columns
+        div.right-column
+          h2.name Это интересно
+          p.contacts
+            | Мой github: &nbsp;
+            a(href="http://github.com/vdv73rus", target="_blank") vdv73rus
+            br
+            a(href="http://ulyanovsk.hh.ru/resume/2a4a1fafff0097db2f0039ed1f736563726574", target="_blank") Резюме на hh
+            br
+            a(href="http://vislov-dmitriy.moikrug.ru/", target="_blank") Мой круг
+
+          h2.name Как связаться
+          p.contacts
+            | E-mail:&nbsp;
+            a(href="mailto:vdv73rus@gmail.com") vdv73rus@gmail.com
+            br
+            | Phone:&nbsp;
+            a(href="tel:+79603605867") +7 (960) 360-58-67
+            br
+            | Skype:&nbsp;
+            a(href="skype:vdv73rus?chat") vdv73rus
+
+        div.center-column
+          h2 Я работал
+          p.works
+            b UNDEV (2013 — …)&nbsp;
+            br
+            | &nbsp;&nbsp; front-end Ruby on Rails приложений
+            br
+            b Simtech (2012 — 2013)&nbsp;
+            br
+            | &nbsp;&nbsp; CS-Cart Architect Team [ведущий веб-технолог]
+            br
+            b ITECH.group (2008 — 2012)&nbsp;
+            br
+            | &nbsp;&nbsp; [верстальщик → ведущий → начальник отдела]
+            br
+          h2 Я хотел бы прокачать и попробовать
           ul
             li b_ framework (БЭМ)
             li native JavaScript (+ООП)
             li тестирование JavaScript
             li browserify / webpack
 
-        div.right-column
-          h2.want Я хочу
-          p Гибкий график и возможность периодически работать из любой точки вселенной
+        div.left-column
+          h2 Скорее всего
+          p придётся выдать мне корпоративный MacBook пока я не куплю наконец свой и подписку на Adobe Photoshop, может даже помочь с переездом и жильём на первое время
 
-          h2.no-want Я не хочу
-          p Верстать под Битрикс
-
-          h2.geo География
-          p Предпочтителен офис в г.Ульяновск. Переезд в г.Чебоксары возможен сразу. Москва не ранее лета 2015г. Ну или удалённая работа.
-
-      .reward
-        | 60 000
-        span.ruble Р
+          h2 А ещё
+          p
+            | Я коллекционирую монетки и веду общественно-социальный
+            &nbsp;
+            a(href="http://vdv73rus.livejournal.com", target="_blank") блог в ЖЖ
 
     include _shared/_footer
