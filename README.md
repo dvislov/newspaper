@@ -1,0 +1,4 @@
+newspaper
+=========
+
+newspaper for HR
